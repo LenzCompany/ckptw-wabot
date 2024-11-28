@@ -10,11 +10,11 @@ const {
 global.config = {
     // Informasi bot dasar
     bot: {
-        name: "CKPTW", // Nama bot
+        name: "LenzBotz-ID", // Nama bot
         prefix: /^[°•π÷×¶∆£¢€¥®™+✓_=|/~!?@#%^&.©^]/i, // Karakter awalan perintah yang diizinkan
         phoneNumber: "", // Nomor telepon bot (opsional jika menggunakan QR code)
         thumbnail: "https://e1.pxfuel.com/desktop-wallpaper/943/672/desktop-wallpaper-whatsapp-bot-what-is-it-and-how-to-use-messenger-chatbots-chatbot.png", // Gambar thumbnail bot
-        website: "https://chat.whatsapp.com/FlqTGm4chSjKMsijcqAIJs" // Website untuk WhatsApp bot
+        website: "api.ndaadev.us.kg" // Website untuk WhatsApp bot
     },
 
     // Pesan bot yang disesuaikan untuk situasi tertentu
@@ -41,16 +41,16 @@ global.config = {
 
     // Informasi owner bot
     owner: {
-        name: "", // Nama owner bot
-        number: "", // Nomor telepon owner bot
-        organization: "", // Nama organisasi owner bot
+        name: "Ndaa", // Nama owner bot
+        number: "62856405754212", // Nomor telepon owner bot
+        organization: "LenzyBotz-ORG", // Nama organisasi owner bot
         co: [""] // Nomor co-owner bot
     },
 
     // Konfigurasi stiker bot
     sticker: {
         packname: "Stiker ini dibuat oleh", // Nama paket stiker
-        author: "@ckptw-wabot" // Pembuat stiker
+        author: "@LenzyBotz-wabot" // Pembuat stiker
     },
 
     // Pengaturan sistem bot
@@ -62,6 +62,6 @@ global.config = {
         selfOwner: true, // Apakah bot menjadi owner
         selfReply: true, // Apakah bot merespon pesan yang dikirim bot sendiri
         timeZone: "Asia/Jakarta", // Zona waktu bot
-        usePairingCode: false // Menggunakan kode pairing untuk koneksi
+        usePairingCode: true // Menggunakan kode pairing untuk koneksi
     }
 };
