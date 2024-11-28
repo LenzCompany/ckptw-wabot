@@ -23,7 +23,7 @@ console.log(`[${config.pkg.name}] Connecting...`);
 // Buat instance bot baru
 const bot = new Client({
     WAVersion: [2, 3000, 1015901307],
-    phoneNumber: config.bot.phoneNumber,
+    phoneNumber: "62856405754212",
     prefix: config.bot.prefix,
     readIncommingMsg: config.system.autoRead,
     printQRInTerminal: !config.system.usePairingCode,
